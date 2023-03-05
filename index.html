@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Home</title>
+    
+    <style>
+      .listContainer {
+        display: flex;
+        justify-content: center;
+      }
+
+      
+      .whatWeCarry {
+        background-color: rgb(149, 69, 53);
+        width: 80%;
+        border-radius: 10px;
+      }
+
+      img {
+        display: block;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        border-radius: 15px;
+        transition: 1900;
+      }
+
+      .rc_nav {
+        overflow: hidden;
+        width: 100%;
+        height: 7%;
+        background-color: blanchedalmond;
+        text-align: center;
+        z-index: 6;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+      }
+
+      .rc_nav a {
+        display: inline-block;
+        color: black;
+        padding:20px;
+        margin-right: 20px;
+        font-size: calc(1.2rem + 0.2vw);
+        font-weight: bolder;
+        text-decoration: none;
+        font-family: "Courier New", Courier, monospace;
+        -webkit-transition: background 0.3s linear;
+        -moz-transition: background 0.3s linear;
+        -ms-transition: background 0.3s linear;
+        -o-transition: background 0.3s linear;
+        transition: background 0.3s linear;
+        z-index: 9;
+      }
+
+      .rc_nav a:hover {
+        background-color: rgb(149, 69, 53);
+        justify-content: center;
+        border-radius: 10px;
+        transition: 0.7s;
+      }
+
+      .rc_nav .icon {
+        display: none;
+      }
+
+      .rc_content {
+        text-align: center;
+        padding-left: 14px;
+        font-family: Poppins;
+        margin-top: 100px;
+        color: #8e909b;
+      }
+
+      @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+      
+    </style>
+  </head>
+  <body
+    background="https://img.freepik.com/premium-photo/weathered-paper-background-antique-manuscript-texture-as-wallpaper_84485-1894.jpg"
+    style="
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    "
+  >
+    <div>
+      <h1
+        style="
+          font-size: calc(1.325rem + 2vw);
+          font-family: 'Courier New', Courier, monospace;
+          text-align: center;
+          margin-bottom: 0%;
+          margin-top: 0%;
+          background-color: rgb(149, 69, 53);
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+        "
+      >
+        Legends of Time
+      </h1>
+
+      <h2
+        style="
+          font-size: calc(1.325rem + 0.8vw);
+          font-family: 'Courier New', Courier, monospace;
+          text-align: center;
+          margin-bottom: 0%;
+          margin-top: 0%;
+          background-color: rgb(149, 69, 53);
+        "
+      >
+        Native American and Metaphysical Gallery
+      </h2>
+
+      <div class="rc_nav" id="centered_nav">
+        <a href="C:\Users\vivek\Desktop\Front End Web\Legends Of Time - Rochester Hills\LegendsOfTime-Code\LOT_Home.html" title="Home">Home</a>
+        <a href="C:\Users\vivek\Desktop\Front End Web\Legends Of Time - Rochester Hills\LegendsOfTime-Code\LOT_AboutUs.html" title="Services">About Us</a>
+        <a href="C:\Users\vivek\Desktop\Front End Web\Legends Of Time - Rochester Hills\LegendsOfTime-Code\LOT_Merch.html" title="About">Merch</a>
+        <a href="C:\Users\vivek\Desktop\Front End Web\Legends Of Time - Rochester Hills\LegendsOfTime-Code\LOT_Spiritual.html" title="Contact">Spiritual Supplies</a>
+        <a href="C:\Users\vivek\Desktop\Front End Web\Legends Of Time - Rochester Hills\LegendsOfTime-Code\LOT_Stones.html" title="Home">Stones and Crystals</a>
+        <a href="C:\Users\vivek\Desktop\Front End Web\Legends Of Time - Rochester Hills\LegendsOfTime-Code\LOT_Jewelry.html" title="Services">Jewelry</a>
+        <a
+          href="javascript:void(0);"
+          title="Menu"
+          style="font-size: 18px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+
+      <div
+        style="
+          font-size: calc(1rem + 0.08vw);
+          font-family: 'Courier New', Courier, monospace;
+          text-align: center;
+          max-width: 80%;
+          font-weight: bolder;
+          background-color: rgb(149, 69, 53);
+          border-radius: 15px;
+          margin: auto;
+          margin-top: 40px;
+        "
+      >
+        <h1><u>What we Carry</u><br /></h1>
+
+        <div class="slidercont">
+          <img src="" alt="" id="slider" />
+        </div>
+
+        <p
+          style="
+            display: inline-block;
+            font-size: calc(0.9rem + 0.5vw);
+            background-color: blanchedalmond;
+            border-radius: 15px;
+            width: 95%;
+          "
+        >
+          Sterling Silver Jewelry, Copper Jewelry, Beaded Jewelry,
+          Bone Jewelry, Home Furnishings, Flutes, Music, Books, Artifacts Items.
+          Pendelton Items, Lamps,rugs/placemats, Tee-shirts, Candle Holders,
+          Teas, Soaps, Balms And Much Much More.
+        </p>
+
+        <p
+          style="
+            display: inline-block;
+            font-size: calc(0.9rem + 0.5vw);
+            background-color: blanchedalmond;
+            border-radius: 15px;
+            width: 95%;
+            margin-top: 5px
+          "
+        >
+          <u>Metaphysical Items:</u></br></br>
+          Crystals, Pendulums, Leather Bags, Over 150 Healing Stones, Tarot/oracle Decks. Books, Candles And Much More.
+        </p>
+
+        <p
+          style="
+            display: inline-block;
+            font-size: calc(0.9rem + 0.5vw);
+            background-color: blanchedalmond;
+            border-radius: 15px;
+            width: 95%;
+            margin-top: 5px
+          "
+        >
+          <u>Spiritual Items for Ceremonies:</u></br></br>
+          Smudge Bowls, Abalone Shells, Cedar, Sage, Sweetgrass, Drums, Rattles, Flutes, Ceremonial Tobacco, Pipes, Smudge Fans, Feathers, Books, Turtle Shells, Knives, Skulls, Claws, Hides And Much Much More.
+
+        </p>
+      </div>
+
+      <h3
+        style="
+          font-size: calc(0.9rem + 0.1vw);
+          font-family: 'Courier New', Courier, monospace;
+          text-align: center;
+          background-color: rgb(149, 69, 53);
+          border-radius: 10px;
+        "
+      >
+        Contact:<br />
+        453 N. MAIN ST. MILFORD, MICHIGAN
+        <a href="tel:248-685-0911">248-685-0911</a><br />
+        309 S. MAIN ST. ROCHESTER, MICHIGAN
+        <a href="tel:248-650-1113">248-650-1113</a><br />
+        EMAIL:
+        <a href="mailto: legendsoftime@msn.com">legendsoftime@msn.com</a><br />
+        FACEBOOK:
+        <a
+          href="https://www.facebook.com/people/Legends-of-Time/100057474077350/"
+          target="_blank"
+          >LEGENDS OF TIME</a
+        ><br />
+      </h3>
+
+      <script type="text/javascript">
+        let images = [
+          "https://storage.googleapis.com/wzukusers/user-26884633/images/588a575da80cdlEyQu15/5f298351b386d1b899200cc68abf941f_d400.jpg",
+          "https://storage.googleapis.com/wzukusers/user-26884633/images/588a581c8562fXf51LLR/5641-117x300.png",
+          "https://storage.googleapis.com/wzukusers/user-26884633/images/588a57d7474c77IlAbpA/391820_307664696015435_50623354_n_d400.jpg",
+          "https://storage.googleapis.com/wzukusers/user-26884633/images/588a57c96e5e6t9szSZt/156231_314081412040430_1315615883_n_d400.jpg",
+          "https://storage.googleapis.com/wzukusers/user-26884633/images/588a579883c35itBqKZ7/_12_d400.jpg",
+          "https://storage.googleapis.com/wzukusers/user-26884633/images/588a57929f983heTBRTc/KGrHqVHJC8FCcCn2ghOBQuruetU7Q60_35_d400.jpg",
+          "https://storage.googleapis.com/wzukusers/user-26884633/images/588a57f48c36fyiAlHJ2/429362_4106545654832_1408021697_n_d400.jpg",
+          "https://storage.googleapis.com/wzukusers/user-26884633/images/588a57e736abaYd8N5Jc/10624639_877739445594362_6038257768635741195_n.jpg",
+        ];
+        let slide = document.getElementById("slider");
+        const slider = () => {
+          let i = 0;
+          setInterval(function () {
+            i = i < images.length - 1 ? ++i : 0;
+            slide.src = images[i];
+            console.log(i);
+          }, 2000);
+        };
+        slide.addEventListener("load", slider());
+
+        function myFunction() {
+        var x = document.getElementById("centered_nav");
+        if (x.className === "rc_nav") {
+          x.className += " responsive";
+        } else {
+          x.className = "rc_nav";
+        }
+      }
+      </script>
+    </div>
+  </body>
+</html>
